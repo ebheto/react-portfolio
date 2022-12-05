@@ -93,6 +93,6 @@ Create a CSS selector that targets the `.heroGridArea` class and add the followi
 
 * Now, finally, open index.html in your browser. You should see your final result—the grid you just built!
 
----
+-----
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
