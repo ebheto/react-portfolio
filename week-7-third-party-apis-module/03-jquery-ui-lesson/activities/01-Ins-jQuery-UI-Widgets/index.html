@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-   
+
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Added Bootstrap -->
     <link
@@ -20,9 +20,7 @@
     <!-- body content -->
     <div class="jumbotron jumbotron-fluid bg-info text-light">
       <div class="container text-center">
-        <h1>
-          jQuery UI Widgets
-        </h1>
+        <h1>jQuery UI Widgets</h1>
       </div>
     </div>
     <div class="container my-4">
@@ -51,13 +49,13 @@
         The dialog window can be moved, resized and closed with the 'x' icon.
       </p>
     </div>
+    <!-- jQuery <script> tags -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#dialog").dialog();
+      });
+    </script>
   </body>
-  <!-- Moved jQuery <script> tags -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-    $(function () {
-      $('#dialog').dialog();
-    });
-  </script>
 </html>
